@@ -1,0 +1,114 @@
+/* styles.css */
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: url('dany.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    cursor: none; /* Hide the default cursor */
+}
+
+header {
+    background-color: #FF4500;
+    color: #FFF;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Light background for readability */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 3px dotted #000;
+    padding-bottom: 5px;
+}
+
+.bio-image {
+    float: left;
+    margin-right: 15px;
+    border: 2px solid #000;
+    width: 150px;
+    height: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+marquee {
+    font-weight: bold;
+    color: #FF4500;
+    background-color: #FFF;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.image-slider {
+    display: flex;
+    overflow-x: auto;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.image-slider img {
+    height: 150px;
+    margin-right: 10px;
+    border: 2px solid #000;
+}
+
+footer {
+    background-color: #FF4500;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#cursor-image {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
